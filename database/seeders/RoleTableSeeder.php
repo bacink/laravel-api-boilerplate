@@ -14,6 +14,11 @@ class RoleTableSeeder extends BaseSeeder
         ]);
 
         Role::firstOrCreate([
+            'name' => 'admin skpd',
+            'description' => 'Administrator Skpd',
+        ]);
+
+        Role::firstOrCreate([
             'name' => 'regular',
             'description' => 'Regular Users',
         ]);
